@@ -1,0 +1,71 @@
+<!--
+  Generated template for the ProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary" >
+    <ion-title>Profile</ion-title>  
+    <ion-buttons end style="padding-top:1%">
+      <button icon-only (click)="gotoSettings();" style="background-color:transparent">
+        <ion-icon name="ios-settings-outline"></ion-icon>
+      </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content style="background-image: url('assets/bg_splash.svg');">
+
+  <!-- fab button -->
+  <ion-fab right fixed style="position:fixed;top:36%;right:6%;" (click)="gotoAddProfileImage();">
+      <button ion-fab style="background-image:url('assets/profile/edit_icon.svg');background-size:cover">
+      </button>
+  </ion-fab>
+
+
+  <!-- start main div -->
+  <div id="mainDiv">
+    <div class="profileImg" style="background-image:url('assets/profile/cover_profile.svg');">
+      <div class="details">
+        <div class="name">
+          <p>mohamed ahmed</p>
+        </div>
+      </div>
+    </div>
+    <!-- end profile image div -->
+    <!-- start tabs -->
+    <div class="tabsDiv">
+      <ion-tabs >
+        <ion-tab tabTitle="POST" [root]="tab1Root"></ion-tab>
+        <ion-tab tabTitle="FOLLOWERS" [root]="tab2Root"></ion-tab>
+        <ion-tab tabTitle="FOLLOWING" [root]="tab3Root"></ion-tab>
+      </ion-tabs>
+  
+    </div>
+  </div>
+  <!-- end main div -->
+</ion-content>
+<ion-footer>
+  <ion-toolbar  color="primary">
+      <div class="mainFooterIconsDiv">
+          <ion-buttons class="iconContaine">
+              <button ion-button icon-only (click)="gotoHome();"><ion-icon name="ios-home-outline"></ion-icon></button>
+            </ion-buttons>
+            <ion-buttons class="iconContaine">
+              <button ion-button icon-only (click)="gotoSearch();"><ion-icon name="ios-search-outline"></ion-icon></button>
+            </ion-buttons>
+            
+            <ion-buttons class="iconContaine">
+              <button ion-button icon-only (click)="gotoAddPost();"><ion-icon name="ios-add-circle"></ion-icon></button>
+            </ion-buttons>
+            <ion-buttons class="iconContaine">
+              <button ion-button icon-only (click)="gotoFavourites();"><ion-icon name="ios-heart-outline"></ion-icon></button>
+            </ion-buttons>
+            <ion-buttons class="iconContaine">
+              <button ion-button icon-only ><ion-icon name="ios-person-outline"></ion-icon></button>
+            </ion-buttons>
+      </div>
+    </ion-toolbar>
+</ion-footer>

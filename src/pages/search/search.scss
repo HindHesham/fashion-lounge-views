@@ -1,0 +1,38 @@
+page-search {
+    .content {
+        //background-color: #f9f9f9;
+        background-color: #efefef;
+        font-size: x-small
+      }
+    .header .toolbar-background, .footer .toolbar-background{
+        border-style: solid;
+        border-color: transparent
+    }
+    .searchIconsDiv{
+        //border: 1px solid black;
+        width:95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin:4% auto 0;
+        flex-wrap: wrap;
+        align-content: center;
+        
+    }
+    .searchIconsDiv button{
+        height: 2em;
+        color:gray;
+        border-color: gray;
+        margin: 2% 2% 0 2%;
+    }
+    .searchClickResult{
+       // border: 1px solid red;
+        width:95%;
+        height: auto;
+        display: flex;
+        margin:0 auto;
+        align-content: center
+    }
+
+    
+}

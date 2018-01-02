@@ -1,0 +1,21 @@
+page-edit-profile {
+    .content {
+        background-color:white;
+        font-size: x-small
+    }
+    #circleImgItem{
+        text-align: center; 
+    }
+    .circleImg{
+        border-radius: 50%;
+        width:50%;
+        margin: 1px auto;
+    }
+    #circleImgItem h3 {
+        margin-top:4%; 
+    }
+
+    .select .select-icon .select-icon-inner{
+        color: #8649a5
+    }
+}

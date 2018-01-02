@@ -1,0 +1,59 @@
+page-profile {
+   
+    .profileImg{
+        width:100%;
+        height: 45%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+    }
+    #mainDiv {
+        //border: 1px solid red;
+        width: 89%;
+        height: 95%;
+        margin: 4% auto;
+        //background-color: white;
+       }
+    .details{
+        //border: 1px solid black;
+        width:100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position:relative;
+        bottom: 5%;
+        padding: 1%;
+    }
+    .name{
+        //margin-top: 3%;
+        color:white;
+        font-weight: normal;
+        margin-left:2%;
+        font-size: 12px;
+    }
+    .editIcon{
+       // border:1px solid red;
+        border-radius: 50%;
+        height: 100%;
+        width:11%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-position: center;
+    }
+    .tabsDiv{
+        //border: 1px solid black;
+        width: 100%;
+        height: 55%;
+        position: relative;
+    }
+    .tabs-ios .tab-button.has-title-only .tab-button-text{
+        font-size: x-small;
+    }
+   
+}

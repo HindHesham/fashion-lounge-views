@@ -1,0 +1,48 @@
+page-login {
+ 
+  #logoDiv {
+    width: 50%;
+    height: 25%;
+    margin: 5% auto;
+    padding-left: 0;
+  }
+ 
+  #registerationDiv {
+    width: 85%;
+    height: 12%; 
+    // border: 1px solid black;
+    margin: 0% auto 0 auto;
+  }
+  
+  ion-list ion-row{
+    margin-top:2%;
+  }
+.register{
+  margin-bottom: 5%;
+}
+.item-button{
+  height: 35px;
+  width: 99%;
+}
+.forgotPassBtn{
+  height: 7%;
+}
+.label{
+  margin:0;
+}
+.loginBtn{
+  padding-left: 0;
+
+}
+.AllRowBtn{
+  width:90%;
+  margin:2% auto;
+}
+.AllRowBtn ion-item {
+
+  padding-left: 0px;
+}
+.item.item-block .item-inner{
+  padding-right: 0px;
+}
+}

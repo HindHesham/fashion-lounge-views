@@ -1,0 +1,202 @@
+page-post-details {
+    .content {
+        background-color: #efefef;
+        font-size: x-small
+      }
+      #mainHeaderDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+      #leftIconDiv{
+      //border: 1px solid black;
+        display: flex;
+        align-items: stretch;
+        -webkit-align-items:stretch;
+        width: 9%;
+        height: 50%;
+        position: absolute;
+        left: 5%;
+        top:20%;
+      }
+      #leftIconDiv ion-img{
+        height: inherit;
+      }
+      #titleDiv{
+        //border: 1px solid black;
+        display: flex;
+          width: 40%;
+          margin:0 auto;
+          /*position: absolute;
+          left: 30%;
+          top:0%;*/
+          text-align: center;
+          -webkit-text-fill-color: white;
+          font-size:medium;
+        //font-weight: bold;
+      }
+      #titleDiv p{
+        margin: 0 auto;
+      }
+      #rightIconDiv{
+      //border: 1px solid black;
+        display: flex;
+        align-items: stretch;
+        -webkit-align-items:stretch;
+        width: 9%;
+        height: 50%;
+        position: absolute;
+        left: 86%;
+        top:20%;
+      }
+      #rightIconDiv ion-img{
+        height: inherit;
+      }
+      .mainPostDiv{
+        border: 1px ridge lightgrey;
+        background-color: white;
+        width: 95%;
+        height: auto;
+        position: relative;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        margin: 3% auto 0 ;
+        flex-wrap: wrap;
+    
+      }
+      .flex-content{
+        width:90%;
+        height: auto;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        flex-wrap: wrap;
+        margin: 2% auto;
+      }
+      .ownerDetailsDiv{
+        //border: 1px solid blue;
+        width: 100%;
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2% auto;
+      }
+      .leftDiv{
+        //border: 1px solid black;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        justify-content: space-around
+      }
+      .imgDiv{
+        width: 21%;
+        height: 60px;
+        display: flex;
+        align-content:flex-start;
+      border: 1px solid transparent;
+      border-radius: 50px;
+      }
+    
+      .nameDiv{
+        width: 70%;
+        height: auto;
+        margin-top: 7%;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        font-size:x-small
+    
+    
+      }
+      .profileName{
+        font-weight: bold;
+      }
+      .postDate{
+        -webkit-text-fill-color: gray;
+      }
+      .rightDiv{
+      //border: 1px solid black;
+        width: 10%;
+        height: auto;
+        display: flex;
+        align-content: center;
+      } 
+      .rightDiv img{
+        margin: auto;
+      }
+      .postImgDiv{
+      
+      // border: 1px solid black;
+      width: 100%;
+      height: 50%;
+      position: relative;
+      display: flex;
+      align-items: start;
+      
+      }
+      .postImgDiv ion-img{
+    
+        height: inherit;
+        
+      }
+      .postParagraphOfImgDiv{
+        //border: 1px solid black;
+        width: 100%;
+        height: auto;
+      } 
+      .like-comment-fav{
+        border-top: 1px solid lightgray;
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        width:100%;
+        height: auto;
+        justify-content: space-between
+      }
+      .like-comment-fav ion-img{
+        margin-top:3%;
+      }
+      .like-comment-fav p{
+        margin-left:7%;
+      }
+      .likeandcommentDiv{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        width:80%;
+        margin-top:2%;
+        //border: 1px solid blue;
+      }
+      .likeContent, .commentContent{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        width:50%;
+        //border: 1px solid red;
+      }
+      .favDiv{
+        //border: 1px solid black;
+        width: 10%;
+        margin-top:2%
+      }
+      .favDiv ion-img{
+        margin: 10% 5%;
+      }
+      .darkTxt {
+        color: black;
+        font-size: 10px;
+      }
+      .hr {
+        border-bottom: 1px solid #ccc;
+        margin: 10px 0;
+        width: 90%;
+        margin-left: 5%;
+      }
+}

@@ -1,0 +1,63 @@
+<!--
+  Generated template for the PostDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header >
+
+  <ion-navbar color="primary">
+    <ion-title>Mohamed Anwar</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content >
+    <ion-card>
+      
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="assets/home/profile.svg" class="imgDiv">
+        </ion-avatar>
+        <h2>mohamed ahmed</h2>
+        <p class="postDate">3 minutes ago</p>
+          <ion-buttons item-end (click)="presentPopoverMore($event)">
+              <button ion-button icon-only clear>
+              <ion-icon name="md-more" id="moreIcon" color="dark"></ion-icon>
+            </button>
+          </ion-buttons>
+      </ion-item>
+    
+      <img src="assets/home/post.svg" (click)="gotoPost()">
+    
+      <ion-card-content>
+          <p class="boldTxtWeight">#img #flex #test <span class="normalTxtWeight">flex test img</span></p>
+      </ion-card-content>
+    
+      <div class="hr"> </div>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-left clear small (click)="addToLiked($event)">
+            <ion-icon *ngIf="isLikedPost()==false" name="ios-thumbs-up-outline" color="dark" ></ion-icon>
+            <ion-icon *ngIf="isLikedPost()==true" name="ios-thumbs-up" color="dark"></ion-icon>    
+            <div class="darkTxt">12 Likes</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button icon-left clear small (click)="gotoComments()">
+            <ion-icon color="dark" name="ios-chatbubbles-outline"></ion-icon>
+            <div class="darkTxt">100 Comments</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button icon-only clear small float-right (click)="addToFavourite($event)">
+            <ion-icon *ngIf="isFavouriteProduct()==false" name="ios-heart-outline" color="primary"></ion-icon>   
+            <ion-icon *ngIf="isFavouriteProduct()==true" name="ios-heart" color="primary"></ion-icon>
+          </button>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+
+</ion-content>
+

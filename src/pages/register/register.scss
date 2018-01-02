@@ -1,0 +1,29 @@
+page-register {
+  ::-webkit-scrollbar,
+  *::-webkit-scrollbar {
+    display: none;
+  }
+    ion-content {
+        overflow-y: hidden;
+      }
+      #logoDiv {
+        height: 30%;
+        margin: 15% auto 0;
+        width: 60%;
+      }
+      .grid{
+        padding: 0px;
+      }
+      .col{
+        padding: 0;
+      }
+     
+      .nextBtn button {
+        width: 100%;
+        font-weight: bold;
+      
+      }
+      ion-row ion-item{
+        position: initial;
+      }
+}

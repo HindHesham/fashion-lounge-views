@@ -1,0 +1,187 @@
+// http://ionicframework.com/docs/theming/
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.scroll-content {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  // overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+}
+.fab-ios {
+  color: #fff;
+  background-color: transparent;
+}
+ion-icon{
+  color:white
+}
+ion-img {
+  background: transparent
+}
+.content{
+  background-size: cover;
+  font-family: myfont;
+}
+#mainDiv {
+ //border: 1px solid red;
+ width: 89%;
+ //height: 95%;
+ margin: 4% auto;
+ //background-color: white;
+}
+.mainPostDiv{
+  border: 1px ridge lightgrey;
+  background-color: white;
+  width: 95%;
+  height: auto;
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  margin: 3% auto 0 ;
+  flex-wrap: wrap;
+}
+.backBtn{
+  position: fixed;
+  left: 5.5%;
+  width: 12%;
+  top: 9%;
+ }
+ .errorMsg{
+  // border:1px solid black;
+   width:90%;
+   margin: 1px auto;
+ }
+ .card{
+    margin: 12px;
+    border-radius: 2px; 
+    width: calc(100% - 24px);
+    font-size: 1.4rem;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(255, 255, 255, 0); 
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0); 
+
+ }
+.flex-main{
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width:95%;
+  height: 95%;
+  margin: 4% auto;
+  border:1px ridge lightgrey;
+  background-color: white;
+
+}
+ion-title{
+  //text-align: center;
+  -webkit-text-fill-color: white;
+
+}
+.toolbar-title{
+  font-size:small
+}
+.notificationIcon{
+  padding-top: 2px;
+}
+ion-navbar ion-icon{
+  font-size: 1.7em;
+}
+.fab{
+  background-color: transparent
+}
+.mainFooterIconsDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* round row */
+.itemRow{
+  width: 90%;
+  margin: 2% auto 0;
+  border: 1px solid #8649a5;
+  border-radius: 25px;
+}
+.itemRow ion-item{
+  border-radius: 25px;
+}
+/*round button in mid view */
+.midBtn{
+  width: 50%;
+  margin: 7% auto 0 auto; 
+}
+.midBtn button {
+  width: 100%;
+  font-weight: bold;
+}
+
+/*all row button */
+.AllRowBtn{
+  margin: 2% auto 0;
+  text-align: center;
+}
+.AllRowBtn button{
+  width: 95%;
+}
+
+.item .item-button{
+  height: 35px;
+}
+.tabpages{
+  background-image: none;
+} 
+.item p{
+  font-size:x-small;
+  color: black;
+}
+
+.item-button { 
+  overflow: hidden;
+  height: 2.6rem;
+  width: 40%;
+  font-size: 1rem;
+  text-transform: none;
+  -webkit-box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.14), 0 1px 1px 1px rgba(255, 255, 255, 0.2), 0 1px 1px 1px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 1px 1px 1px rgba(255, 255, 255, 0.14), 0 1px 1px 1px rgba(255, 255, 255, 0.12);
+}
+
+.item{
+  border-bottom:.5px solid lightgray
+}
+//for show post container
+.postMainDiv{
+  display: flex;
+  flex-wrap: wrap;
+  width:95%;
+  height: 100%;
+  margin: auto;
+  flex-direction: row;
+}
+.postContainer{
+  //border: 1px solid black;
+  width: 30%;
+  height: 45%;
+  margin: 5% auto 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center;
+}

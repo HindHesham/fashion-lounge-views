@@ -1,0 +1,35 @@
+page-comments {
+
+  .content.outer-content
+    {
+      background: white;
+        font-size: x-small
+      }
+      .chat-sliding-demo ion-note {
+        font-size: 13px;
+        margin-top: -8px;
+        -webkit-text-fill-color: #8649a5;
+      }
+      .chat-sliding-demo img {
+        pointer-events: none;
+      }
+      .commentItem{
+        margin-top:2%;
+      }
+    .sendCommentDiv{
+        border: 1px solid #aaa;
+        border-radius: 25px;
+        width: 90%;
+       
+        left: 5%;
+
+        background-color:#f4f4f4;
+        font-size: x-small;
+    }
+    ion-footer{
+      border:1px solid transparent; 
+      background-color: white;
+      margin-bottom: 0;
+      height: 10%;
+    }
+  }
